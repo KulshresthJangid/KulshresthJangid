@@ -12,4 +12,6 @@ I'm a passionate software developer with a curious mind, deeply immersed in the 
 - 🤝 Let's Connect and Grow Together
 - 👨‍💻 Open to collaboration and always excited about new opportunities in the software development realm.
 - 💬 Feel free to reach out if you have any questions, need assistance with a project, or simply want to discuss all things tech.
+  ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=LinkedIn&logoColor=white)
+
 # Let's connect and embark on a journey of continuous learning and growth in the world of software development! 🚀
