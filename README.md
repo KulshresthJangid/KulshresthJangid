@@ -1,4 +1,4 @@
-👋 Hey there, I'm Kulshresth Jangid!
+# 👋 Hey there, I'm Kulshresth Jangid!
 I'm a passionate software developer with a curious mind, deeply immersed in the ever-evolving world of technology. I thrive on challenges and continually seek new opportunities to learn and grow in the field of software development.
 
 💻 About Me
@@ -13,6 +13,3 @@ I'm a passionate software developer with a curious mind, deeply immersed in the 
 👨‍💻 Open to collaboration and always excited about new opportunities in the software development realm.
 💬 Feel free to reach out if you have any questions, need assistance with a project, or simply want to discuss all things tech.
 Let's connect and embark on a journey of continuous learning and growth in the world of software development! 🚀
-
-![<Badge Name>](https://img.shields.io/badge/LinkEdin-<Background Color>?style=for-the-badge&logo=<Icon Name>&logoColor=<Logo Color>)
-
