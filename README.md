@@ -1,5 +1,5 @@
 #                                                          👋 Hey there, I'm Kulshresth Jangid!
-![](https://komarev.com/ghpvc/?username=kulshresthjangid)
+![](https://komarev.com/ghpvc/?username=kulshresthjangid)<br />
 I'm a passionate software developer with a curious mind, deeply immersed in the ever-evolving world of technology. I thrive on challenges and continually seek new opportunities to learn and grow in the field of software development.
 
 ## 💻 About Me
