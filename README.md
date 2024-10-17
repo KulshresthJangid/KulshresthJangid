@@ -1,6 +1,8 @@
 # 💫 About Me:
 🔭 I’m focused on building full-stack applications using Java, JavaScript (Node.js), TypeScript, and Python, with experience across both frontend and backend.<br><br>👯 I’m eager to collaborate on open-source projects and contribute to innovative web and mobile solutions.<br><br>🌱 Currently learning cloud computing, DevOps, and scalable architectures with tools like Docker and Kubernetes.<br><br>💬 Skills:<br>Languages: Java, JavaScript, TypeScript, Python, SQL<br>Frameworks: React, AngularJs, Spring Boot, Express.js<br>Databases: MySQL, MongoDB, DynamoDB, ElasticSearch<br>Tools: Git, JIRA, Jenkins, Docker, Kubernetes<br>👨‍💻 I’m always open to exploring new ideas and contributing to meaningful projects.<br><br>⚡ Fun fact: I thrive on late-night coding sessions!<br><br>
 
+[![An image of @kulshresthjangid's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kulshresthjangid)](https://holopin.io/@kulshresthjangid)
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kulshresth-jangid/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/nerdy_ge3k) 
 
