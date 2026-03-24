@@ -20,7 +20,7 @@ The most complex system I've built and shipped. Founded it.
 **Architecture (production):**
 
 ```
-tic-tac-toe (:443, reverse proxy)
+buildwithkulshresth.com (:443, reverse proxy)
 ├── /app         → echo-post    (Next.js frontend)
 └── /api/v1/     → smart-server (Spring Boot, :8080)
 ```
@@ -36,7 +36,7 @@ Four-stage async pipeline — Source ingestion → Insight extraction → Post g
 
 **Stack:** Java · Spring Boot · Next.js · TypeScript · RabbitMQ · Redis · Elasticsearch · PostgreSQL · Kubernetes · Docker
 
-→ [Live system](https://tic-tac-toe.kulshresth.dev/app) · [Source (frontend)](https://github.com/KulshresthJangid/echo-post-frontend) · [Source (backend)](https://github.com/KulshresthJangid/SMAT)
+→ [Live system](https://buildwithkulshresth.com/app) · [Source (frontend)](https://github.com/KulshresthJangid/echo-post-frontend) · [Source (backend)](https://github.com/KulshresthJangid/SMAT)
 
 ---
 
