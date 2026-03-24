@@ -88,4 +88,4 @@ I don't pre-optimize, but I design for the next order of magnitude. Schema decis
 
 I'm open to backend architecture roles, founding engineer positions, and early-stage SaaS.
 
-[LinkedIn](https://linkedin.com/in/kulshresth-jangid) · kulshresthjangid@gmail.com
+[LinkedIn](https://linkedin.com/in/kulshresth-jangid) · jangidkulshresth@gmail.com
