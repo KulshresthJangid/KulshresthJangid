@@ -1,25 +1,91 @@
-# 💫 About Me:
-🔭 I’m focused on building full-stack applications using Java, JavaScript (Node.js), TypeScript, and Python, with experience across both frontend and backend.<br><br>👯 I’m eager to collaborate on open-source projects and contribute to innovative web and mobile solutions.<br><br>🌱 Currently learning cloud computing, DevOps, and scalable architectures with tools like Docker and Kubernetes.<br><br>💬 Skills:<br>Languages: Java, JavaScript, TypeScript, Python, SQL<br>Frameworks: React, AngularJs, Spring Boot, Express.js<br>Databases: MySQL, MongoDB, DynamoDB, ElasticSearch<br>Tools: Git, JIRA, Jenkins, Docker, Kubernetes<br>👨‍💻 I’m always open to exploring new ideas and contributing to meaningful projects.<br><br>⚡ Fun fact: I thrive on late-night coding sessions!<br><br>
+# Kulshresth Jangid
 
-[![An image of @kulshresthjangid's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/kulshresthjangid)](https://holopin.io/@kulshresthjangid)
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kulshresth-jangid/) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/nerdy_ge3k) 
-
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Haskell](https://img.shields.io/badge/Haskell-5e5086?style=for-the-badge&logo=haskell&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![Swift](https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-
-# 📊 GitHub Stats:
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kulshresthjangid&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true" alt="Kulshresth's GitHub stats"/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=kulshresthjangid&theme=shadow_blue&hide_border=false"/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kulshresthjangid&theme=shadow_blue&hide_border=false&include_all_commits=true&count_private=true&layout=compact" alt="Kulshresth's most used languages"/>
-</div>
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=kulshresthjangid&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+**Backend Engineer · Systems Architect · Jaipur, India**  
+Software Engineer at [Equinix](https://equinix.com) · Self-taught · Building production systems since 2020
 
 ---
-[![](https://visitcount.itsvg.in/api?id=kulshresthjangid&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## What I Build
+
+I design and ship backend-heavy systems: async pipelines, distributed architectures, and real SaaS products from schema to Kubernetes. Not tutorials. Not demos.
+
+Current focus: multi-tenant SaaS, event-driven systems, and AI integration at the infrastructure level.
+
+---
+
+## Lumen — Marketing Operating System
+
+The most complex system I've built and shipped. Founded it.
+
+**Architecture (production):**
+
+```
+tic-tac-toe (:443, reverse proxy)
+├── /app         → echo-post    (Next.js frontend)
+└── /api/v1/     → smart-server (Spring Boot, :8080)
+```
+
+**What it does:**  
+Four-stage async pipeline — Source ingestion → Insight extraction → Post generation → Distribution. RabbitMQ between each stage. Every stage fails independently, retries with backoff, and writes to a dead-letter queue.
+
+**Scale decisions I made:**
+- Redis time-wheel for 1M+ concurrent scheduled tasks per instance
+- BYO-AI layer: provider-agnostic LLM client, org-level config stored encrypted — no model lock-in
+- Multi-tenant PostgreSQL with row-level security per org
+- Three automation modes: Manual / Review / Autopilot — operates correctly at each
+
+**Stack:** Java · Spring Boot · Next.js · TypeScript · RabbitMQ · Redis · Elasticsearch · PostgreSQL · Kubernetes · Docker
+
+→ [Live system](https://tic-tac-toe.kulshresth.dev/app) · [Source (frontend)](https://github.com/KulshresthJangid/echo-post-frontend) · [Source (backend)](https://github.com/KulshresthJangid/SMAT)
+
+---
+
+## Monolith → Microservices Migration (Equinix / Rampwin)
+
+Led domain decomposition and phased service extraction under real production constraints.
+
+**What I actually did:**
+- Event storming to define bounded contexts before any code changed
+- Strangler fig extraction with feature-flag traffic routing at the Nginx layer
+- Kafka as the inter-service event fabric — async, replay-capable, no direct coupling
+- Distributed sagas for cross-service transactions (checkout, order lifecycle)
+- Pact contract testing in CI — breaking changes caught before staging
+
+**Outcome:** MTTR reduced 28%. Cross-domain failures became structurally impossible. Teams deploy independently.
+
+**Stack:** Java · Spring Boot · Kafka · MongoDB · Kubernetes · Istio · Jaeger
+
+---
+
+## Engineering Principles
+
+**On architecture:**  
+I start from failure modes, not happy paths. Every system I design has an explicit answer to: what happens when this component is unavailable?
+
+**On async systems:**  
+I default to event-driven when latency tolerance allows. Synchronous chains are coupling in disguise.
+
+**On scale:**  
+I don't pre-optimize, but I design for the next order of magnitude. Schema decisions and data ownership boundaries are hard to undo later.
+
+**On tradeoffs I've made:**  
+- Chose at-least-once delivery + idempotent consumers over exactly-once. Operationally simpler under failure.
+- Chose row-level security over separate schemas per tenant. Simpler migrations, acceptable performance tradeoff at current scale.
+- Chose BYO-AI over hosted model. Reduces cost and removes lock-in for customers — added complexity in the provider abstraction layer was worth it.
+
+---
+
+## Stack
+
+**Primary:** Java · Spring Boot · TypeScript · Node.js · Next.js  
+**Data:** PostgreSQL · MongoDB · Redis · Elasticsearch · DynamoDB  
+**Infra:** Docker · Kubernetes · Kafka · RabbitMQ · Jenkins  
+**Cloud:** AWS · Equinix Metal
+
+---
+
+## Contact
+
+I'm open to backend architecture roles, founding engineer positions, and early-stage SaaS.
+
+[LinkedIn](https://linkedin.com/in/kulshresth-jangid) · kulshresthjangid@gmail.com
