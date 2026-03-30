@@ -21,7 +21,7 @@ The most complex system I've built and shipped. Founded it.
 
 ```
 buildwithkulshresth.com (:443, reverse proxy)
-├── /app         → echo-post    (Next.js frontend)
+├── /lumen         → echo-post    (Next.js frontend)
 └── /api/v1/     → smart-server (Spring Boot, :8080)
 ```
 
