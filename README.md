@@ -2,7 +2,7 @@
 
 Software Engineer at **Equinix**. I build distributed backend systems — async pipelines, event-driven architectures, and production-grade SaaS. Based in Jaipur, India.
 
-📦 **Lumen** (my flagship project) → [buildwithkulshresth.com/app](https://buildwithkulshresth.com/app) — multi-tenant marketing OS with a 4-stage async pipeline, Redis time-wheel (1M+ concurrent tasks), provider-agnostic LLM layer, and row-level security PostgreSQL on Kubernetes.
+Live project: [buildwithkulshresth.com/app](https://buildwithkulshresth.com/app) — **Lumen**, a multi-tenant marketing OS with a 4-stage async pipeline, Redis time-wheel handling 1M+ concurrent tasks, provider-agnostic LLM layer, and row-level security PostgreSQL on Kubernetes.
 
 ---
 
@@ -18,7 +18,7 @@ Software Engineer at **Equinix**. I build distributed backend systems — async 
 - **Provider-agnostic LLM client** — orgs bring their own API key, encrypted at rest
 - Three automation modes: Manual, Review, Autopilot
 
-### Monolith → Microservices Migration @ Equinix / Rampwin
+### Monolith → Microservices Migration at Equinix / Rampwin
 
 *Java · Kafka · Docker · Kubernetes · Pact (contract testing)*
 
@@ -53,4 +53,4 @@ Software Engineer at **Equinix**. I build distributed backend systems — async 
 
 Open to **backend architecture roles** (Staff/Senior) — distributed systems, platform engineering, SaaS infrastructure.
 
-📧 [jangidkulshresth@gmail.com](mailto:jangidkulshresth@gmail.com) · [LinkedIn](https://linkedin.com/in/kulshresth-jangid) · [buildwithkulshresth.com](https://buildwithkulshresth.com)
+Email: jangidkulshresth@gmail.com | [LinkedIn](https://linkedin.com/in/kulshresth-jangid) | [buildwithkulshresth.com](https://buildwithkulshresth.com)
